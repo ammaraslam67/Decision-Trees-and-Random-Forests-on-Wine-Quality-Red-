@@ -56,7 +56,7 @@ repo/
 
 ### A) Google Colab (fastest)
 ```python
-!git clone https://github.com/<your-org>/<repo>.git
+!git clone https://github.com/ammaraslam67/Decision-Trees-and-Random-Forests-on-Wine-Quality-Red.git
 %cd repo
 !pip install -r requirements.txt
 ```
@@ -64,7 +64,7 @@ Open `rf_dt_wine_red_ammar.ipynb` in the left pane and **Run all**.
 
 ### B) Local (macOS/Windows/Linux)
 ```bash
-git clone https://github.com/<your-org>/<repo>.git
+git clone https://github.com/ammaraslam67/Decision-Trees-and-Random-Forests-on-Wine-Quality-Red.git
 cd repo
 python -m venv .venv
 # Windows:
@@ -152,7 +152,7 @@ Open `rf_dt_wine_red_ammar.ipynb` → **Kernel → Restart & Run All**.
 
 ---
 
-## 9. Interpretation (teacher notes)
+## 9. Interpretation
 The single tree is transparent but unstable; increasing depth fits training data perfectly while test accuracy drops—classic overfitting. The ensemble stabilises variance by averaging many decorrelated trees, hence the **higher AUC and accuracy** and the tighter confusion matrix. **Alcohol**, **volatile acidity**, and **sulphates** emerge as the strongest discriminators of “good” wine.
 
 ---
@@ -164,14 +164,10 @@ The single tree is transparent but unstable; increasing depth fits training data
 
 ---
 
-## 11. References (Harvard)
+## 11. References
 - Breiman, L. (2001) ‘Random forests’, *Machine Learning*, 45(1), pp. 5–32. https://doi.org/10.1023/A:1010933404324  
 - Breiman, L., Friedman, J.H., Olshen, R.A. and Stone, C.J. (1984) *Classification and Regression Trees*. New York: Chapman & Hall. https://link.springer.com/book/10.1007/978-1-4899-0537-1  
 - Cortez, P., Cerdeira, A., Almeida, F., Matos, T. and Reis, J. (2009) ‘Modeling wine preferences by data mining’, *Decision Support Systems*, 47(4), pp. 547–553. UCI: https://archive.ics.uci.edu/dataset/186/wine+quality  
-- Fawcett, T. (2006) ‘An introduction to ROC analysis’, *Pattern Recognition Letters*, 27(8), pp. 861–874. https://doi.org/10.1016/j.patrec.2005.10.010  
-- Pedregosa, F. et al. (2011) ‘Scikit-learn: Machine Learning in Python’, *JMLR*, 12, pp. 2825–2830. https://jmlr.org/papers/v12/pedregosa11a.html  
-- scikit-learn developers (n.d.) *Tree-based methods* and *Ensembles*. https://scikit-learn.org/stable/modules/tree.html ; https://scikit-learn.org/stable/modules/ensemble.html#forest
-
 ---
 
 ## 12. Licence and academic integrity
