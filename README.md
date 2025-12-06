@@ -2,7 +2,6 @@
 **Student:** Ammar Aslam (ID: 24077434)  
 **Module:** Machine Learning and Neural Networks — University of Hertfordshire  
 **Notebook:** `rf_dt_wine_red_ammar.ipynb`  
-**GitHub repo:** https://github.com/<your-org>/<repo>  <!-- replace -->
 
 ---
 
